@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a0edeb7ad78b4c3df2169449be28552d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '57fc34fd400708aaee7fcf9fec5950b9',
+  'native_key' => 'seosuite.blocked_words',
+  'object' => '{"key":"seosuite.blocked_words","value":"","xtype":"textfield","namespace":"seosuite","area":"seosuite","editedon":null}',
+);

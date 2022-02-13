@@ -1,0 +1,400 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      'c150a785c55fd440e820cf5d6a634d38' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tplMetaTitle","description":"The default chunk used for the title.","editor_type":0,"category":0,"cache_type":0,"snippet":"<title>[[+value]]<\\/title>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<title>[[+value]]<\\/title>"}',
+        'guid' => '6a000d7d05b6c0eabcd870d29c3ba97e',
+        'native_key' => NULL,
+        'signature' => '9c757c5cea0525296f8fc5bc83b36a4a',
+      ),
+      '5839d164b3fc8f25c0257348647de530' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tplMeta","description":"The default chunk used for the meta.","editor_type":0,"category":0,"cache_type":0,"snippet":"<meta name=\\"[[+name]]\\" content=\\"[[+value:escape]]\\" \\/>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<meta name=\\"[[+name]]\\" content=\\"[[+value:escape]]\\" \\/>"}',
+        'guid' => '72bf72bda5f7f8c2a9e177ef6d088984',
+        'native_key' => NULL,
+        'signature' => '73cdb725d466d4288e07e2cb32e654c9',
+      ),
+      'a626eeb76d43526d527d673667ff0dd0' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tplMetaSocial","description":"The default chunk used for the social meta.","editor_type":0,"category":0,"cache_type":0,"snippet":"<meta property=\\"[[+name]]\\" content=\\"[[+value:escape]]\\" \\/>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<meta property=\\"[[+name]]\\" content=\\"[[+value:escape]]\\" \\/>"}',
+        'guid' => '14847633f0b741bbe0fc2bf4912bf6ab',
+        'native_key' => NULL,
+        'signature' => '578e716d39cd5f80a8e963cccc3e5281',
+      ),
+      '6499279756b55bb2a74d1c330e415e46' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tplLink","description":"The default chunk used for the link.","editor_type":0,"category":0,"cache_type":0,"snippet":"<link rel=\\"[[+name]]\\" href=\\"[[+value]]\\" [[+hreflang:notempty=`hreflang=\\"[[+hreflang]]\\"`]]\\/>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<link rel=\\"[[+name]]\\" href=\\"[[+value]]\\" [[+hreflang:notempty=`hreflang=\\"[[+hreflang]]\\"`]]\\/>"}',
+        'guid' => 'bb6b98541e46ade52e2f458be784fef6',
+        'native_key' => NULL,
+        'signature' => '176d6442b238a83b07908be4850ae81a',
+      ),
+      'a5e62b02189242256c1c610fc9a4a2fa' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tplAlternateWrapper","description":"The default chunk used for wrapping alternate links","editor_type":0,"category":0,"cache_type":0,"snippet":"[[+output]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[+output]]"}',
+        'guid' => '38c0a34c6b668bb06038deda1162d775',
+        'native_key' => NULL,
+        'signature' => '93ed6167b0f8650c478fd40fb5814b07',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '0362d7304fb4f068a4d03736e7720392' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"SeoSuiteMeta","description":"Snippet for adding the title and meta description in your website.","editor_type":0,"category":0,"cache_type":0,"snippet":"$modelPath = $modx->getOption(\\n        \'seosuite.core_path\',\\n        null,\\n        $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/seosuite\\/\'\\n    ) . \'model\\/seosuite\\/snippets\\/\';\\n$modx->loadClass(\'SeoSuiteSnippets\', $modelPath, true, true);\\n$ssSnippets = new SeoSuiteSnippets($modx);\\n\\nif (!$ssSnippets instanceof SeoSuiteSnippets) {\\n    $modx->log(xPDO::LOG_LEVEL_ERROR, \'[SeoSuiteMeta] Failed to initialize class SeoSuiteSnippets.\');\\n}\\n\\nreturn $ssSnippets->seosuiteMeta($scriptProperties);","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"$modelPath = $modx->getOption(\\n        \'seosuite.core_path\',\\n        null,\\n        $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/seosuite\\/\'\\n    ) . \'model\\/seosuite\\/snippets\\/\';\\n$modx->loadClass(\'SeoSuiteSnippets\', $modelPath, true, true);\\n$ssSnippets = new SeoSuiteSnippets($modx);\\n\\nif (!$ssSnippets instanceof SeoSuiteSnippets) {\\n    $modx->log(xPDO::LOG_LEVEL_ERROR, \'[SeoSuiteMeta] Failed to initialize class SeoSuiteSnippets.\');\\n}\\n\\nreturn $ssSnippets->seosuiteMeta($scriptProperties);"}',
+        'guid' => '97034b791a7080e97f3b90a6598fa7da',
+        'native_key' => NULL,
+        'signature' => '312fa9c4db3d8db5eb79830bc20a1577',
+      ),
+      'b8a3c753fb6ee222ae7799ca8acadc76' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"SeoSuiteSitemap","description":"Snippet for adding a google sitemap to your website.","editor_type":0,"category":0,"cache_type":0,"snippet":"$modelPath = $modx->getOption(\\n        \'seosuite.core_path\',\\n        null,\\n        $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/seosuite\\/\'\\n    ) . \'model\\/seosuite\\/snippets\\/\';\\n$modx->loadClass(\'SeoSuiteSnippets\', $modelPath, true, true);\\n$ssSnippets = new SeoSuiteSnippets($modx);\\n\\nif (!$ssSnippets instanceof SeoSuiteSnippets) {\\n    $modx->log(xPDO::LOG_LEVEL_ERROR, \'[SeoSuiteMeta] Failed to initialize class SeoSuiteSnippets.\');\\n}\\n\\nreturn $ssSnippets->seosuiteSitemap($scriptProperties);","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"$modelPath = $modx->getOption(\\n        \'seosuite.core_path\',\\n        null,\\n        $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/seosuite\\/\'\\n    ) . \'model\\/seosuite\\/snippets\\/\';\\n$modx->loadClass(\'SeoSuiteSnippets\', $modelPath, true, true);\\n$ssSnippets = new SeoSuiteSnippets($modx);\\n\\nif (!$ssSnippets instanceof SeoSuiteSnippets) {\\n    $modx->log(xPDO::LOG_LEVEL_ERROR, \'[SeoSuiteMeta] Failed to initialize class SeoSuiteSnippets.\');\\n}\\n\\nreturn $ssSnippets->seosuiteSitemap($scriptProperties);"}',
+        'guid' => '0a69bb5a6ed2e12c80541e859c183531',
+        'native_key' => NULL,
+        'signature' => '73bee0bfb3d98f09038b008564ce3bdd',
+      ),
+    ),
+    'Plugins' => 
+    array (
+      '54029c0763279f50308f0eabb2f04c9c' => 
+      array (
+        'unique_key' => 'name',
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'faa1edcce5584eeea5f5e0666ee26038' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormPrerender","priority":0,"propertyset":0}',
+              'guid' => '96f4106b04cad624d966ebdda3abe7bd',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormPrerender',
+              ),
+              'signature' => 'eb92a4b4892f884968e51bd3a891eef8',
+            ),
+            '6e8f0bf8d6ed19070656e81e97018026' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormRender","priority":0,"propertyset":0}',
+              'guid' => '9d34862e33628fc6b0a785159c0863e8',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormRender',
+              ),
+              'signature' => 'e1c01a81537afb9c0ce2a73454b18c89',
+            ),
+            'bc089f06cebc62a8579f180789690187' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormSave","priority":0,"propertyset":0}',
+              'guid' => '216dfea8c8e741495eb6caf17d4bae24',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormSave',
+              ),
+              'signature' => '90ef1e93de95f1e2326e0411089112cd',
+            ),
+            'fea9f940c4a2e8eff416e3fccef40c00' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"onEmptyTrash","priority":0,"propertyset":0}',
+              'guid' => 'e8a5ced34206c0135cb7b24e0f152adf',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'onEmptyTrash',
+              ),
+              'signature' => '47aac9e0133bf713c70b4e3ecf7aa300',
+            ),
+            '0463794d14c8fa42720e5e6d7e5d772f' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnLoadWebDocument","priority":0,"propertyset":0}',
+              'guid' => '726a3d6ba25545b1de9dd5dd17d7efa7',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnLoadWebDocument',
+              ),
+              'signature' => 'bf20b771a53f6b150237f42c7c6e46b8',
+            ),
+            '15b19a230521b7bf1dbe50629eee5405' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnMODXInit","priority":0,"propertyset":0}',
+              'guid' => '42680196013c417d4a5f18bc33306e73',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnMODXInit',
+              ),
+              'signature' => 'c3ed58e150a1c2ee93c2c5f5fcb3e10f',
+            ),
+            'a5a43ac3fc245865bd7c049a657c1afd' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnPageNotFound","priority":0,"propertyset":0}',
+              'guid' => 'ebd1438428a55a500e3f1da343fa861a',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnPageNotFound',
+              ),
+              'signature' => 'ea6a832cd52b73083335101959b7fafa',
+            ),
+            '6987c88a3fb1715b3cd08b3ade11b9a3' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnResourceBeforeSort","priority":0,"propertyset":0}',
+              'guid' => '181bd7f9699dc8b7d745e469b5fb5940',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnResourceBeforeSort',
+              ),
+              'signature' => 'e9387bae5470de8ca8cc219eb0641377',
+            ),
+            '735368cf593ab2f61d027a776162a277' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnResourceDuplicate","priority":0,"propertyset":0}',
+              'guid' => 'ec58b420542bc33e45ae5be352713196',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnResourceDuplicate',
+              ),
+              'signature' => 'f0bac7ae218cfa95a7edb7ce8aab03a7',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'preserve_keys' => true,
+            'update_object' => false,
+            'unique_key' => 
+            array (
+              0 => 'pluginid',
+              1 => 'event',
+            ),
+          ),
+        ),
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"SEO Suite","description":"Plugin to handle the SEO Suite redirects.","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * SeoSuite\\n *\\n * Copyright 2019 by Sterc <modx@sterc.com>\\n *\\/\\n$instance = $modx->getService(\'seosuite\', \'SeoSuite\', $modx->getOption(\'seosuite.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/seosuite\\/\') . \'model\\/seosuite\\/\');\\nif ($instance instanceof SeoSuite) {\\n    $instance->firePlugins($modx->event, $scriptProperties);\\n}","locked":0,"properties":"a:0:{}","disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * SeoSuite\\n *\\n * Copyright 2019 by Sterc <modx@sterc.com>\\n *\\/\\n$instance = $modx->getService(\'seosuite\', \'SeoSuite\', $modx->getOption(\'seosuite.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/seosuite\\/\') . \'model\\/seosuite\\/\');\\nif ($instance instanceof SeoSuite) {\\n    $instance->firePlugins($modx->event, $scriptProperties);\\n}"}',
+        'guid' => 'dd245525a00f1e3bc2d0ef0ad7735250',
+        'native_key' => NULL,
+        'signature' => '622b1b3e9272ecb8aea3b02b6bfcd78e',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'seosuite',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"seosuite-2.0.5-pl\\/modCategory\\/02afbb2b77e0db96495555bd1572299e\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"seosuite"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"seosuite-2.0.5-pl\\/modCategory\\/02afbb2b77e0db96495555bd1572299e\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"seosuite"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"seosuite-2.0.5-pl\\/modCategory\\/02afbb2b77e0db96495555bd1572299e.gpm.resolve.tables.resolver","type":"php","name":"gpm.resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"seosuite-2.0.5-pl\\/modCategory\\/02afbb2b77e0db96495555bd1572299e.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"seosuite-2.0.5-pl\\/modCategory\\/02afbb2b77e0db96495555bd1572299e.permissions.resolver.resolver","type":"php","name":"permissions.resolver"}',
+    ),
+    5 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"seosuite-2.0.5-pl\\/modCategory\\/02afbb2b77e0db96495555bd1572299e.setupoptions.resolver.resolver","type":"php","name":"setupoptions.resolver"}',
+    ),
+    6 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"seosuite-2.0.5-pl\\/modCategory\\/02afbb2b77e0db96495555bd1572299e.stercextra.resolver.resolver","type":"php","name":"stercextra.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'aa511d704bae24f3ff56d0635f1920b1',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '02afbb2b77e0db96495555bd1572299e',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"SEO Suite","rank":0}',
+);

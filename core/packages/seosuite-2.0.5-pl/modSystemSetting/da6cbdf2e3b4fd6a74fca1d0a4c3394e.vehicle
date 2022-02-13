@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '583f933a7ecccdd3533a240a0aa6c4ab',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'da6cbdf2e3b4fd6a74fca1d0a4c3394e',
+  'native_key' => 'seosuite.meta.searchengine',
+  'object' => '{"key":"seosuite.meta.searchengine","value":"google","xtype":"textfield","namespace":"seosuite","area":"seosuite_tab_meta","editedon":null}',
+);

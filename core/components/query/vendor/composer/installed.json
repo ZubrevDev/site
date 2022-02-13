@@ -1,0 +1,40 @@
+[
+    {
+        "name": "craftsmancoding/pagination",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/craftsmancoding/pagination.git",
+            "reference": "3253a367e8fd2ba626cf3c27041fd05451c33103"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/craftsmancoding/pagination/zipball/3253a367e8fd2ba626cf3c27041fd05451c33103",
+            "reference": "3253a367e8fd2ba626cf3c27041fd05451c33103",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-10-27 16:07:28",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Pagination\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Everett Griffiths",
+                "email": "everett@craftsmancoding.com"
+            }
+        ],
+        "description": ".",
+        "keywords": [
+            "pagination"
+        ]
+    }
+]

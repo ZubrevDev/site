@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e587b6fccc03d069e888674ffc29dcfd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '2040ccb72dc441c5f2790c2f39f4aa2b',
+  'native_key' => 'seosuite.tab_social.twitter_cards',
+  'object' => '{"key":"seosuite.tab_social.twitter_cards","value":"summary,summary_large_image,app,player","xtype":"textfield","namespace":"seosuite","area":"seosuite_tab_social","editedon":null}',
+);

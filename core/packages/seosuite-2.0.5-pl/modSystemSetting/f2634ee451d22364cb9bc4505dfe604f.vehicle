@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ce249114e5018680fd20a380184f0775',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f2634ee451d22364cb9bc4505dfe604f',
+  'native_key' => 'seosuite.user_name',
+  'object' => '{"key":"seosuite.user_name","value":"","xtype":"textfield","namespace":"seosuite","area":"seosuite","editedon":null}',
+);

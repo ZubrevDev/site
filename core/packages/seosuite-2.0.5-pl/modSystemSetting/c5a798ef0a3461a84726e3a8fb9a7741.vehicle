@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '619d4c0206af181f1e4acb224934e1e8',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c5a798ef0a3461a84726e3a8fb9a7741',
+  'native_key' => 'seosuite.placeholder_plugin_enabled',
+  'object' => '{"key":"seosuite.placeholder_plugin_enabled","value":true,"xtype":"combo-boolean","namespace":"seosuite","area":"seosuite","editedon":null}',
+);

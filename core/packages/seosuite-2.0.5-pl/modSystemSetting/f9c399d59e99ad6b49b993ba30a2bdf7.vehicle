@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1e68028c0170255014a78067c0d16d65',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f9c399d59e99ad6b49b993ba30a2bdf7',
+  'native_key' => 'seosuite.meta.keywords_field_counters',
+  'object' => '{"key":"seosuite.meta.keywords_field_counters","value":"longtitle:4,description:8,content","xtype":"textfield","namespace":"seosuite","area":"seosuite_tab_meta","editedon":null}',
+);

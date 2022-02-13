@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'eda69036582df185d948286805e80702',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '19b36149249699326c65fb5806f56ac5',
+  'native_key' => 'seosuite.sitemap.babel.add_alternate_links',
+  'object' => '{"key":"seosuite.sitemap.babel.add_alternate_links","value":"1","xtype":"combo-boolean","namespace":"seosuite","area":"seosuite_sitemap","editedon":null}',
+);

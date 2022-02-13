@@ -1,0 +1,30 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2a6f93e9ed0a471e993c1e79d670c819',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '49bdf009cd2a654467a2d29d25c1dcf0',
+  'native_key' => 'seosuite.menu.seosuite',
+  'object' => '{"text":"seosuite.menu.seosuite","parent":"components","action":"home","description":"seosuite.menu.seosuite_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"seosuite"}',
+);

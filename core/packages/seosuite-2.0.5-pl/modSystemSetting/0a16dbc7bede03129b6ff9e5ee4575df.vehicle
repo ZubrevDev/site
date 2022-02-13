@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '819979a5b2f1ac9d3daa2ab92ab75c0a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '0a16dbc7bede03129b6ff9e5ee4575df',
+  'native_key' => 'seosuite.sitemap.default_changefreq',
+  'object' => '{"key":"seosuite.sitemap.default_changefreq","value":"weekly","xtype":"textfield","namespace":"seosuite","area":"seosuite_sitemap","editedon":null}',
+);

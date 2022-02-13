@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e1b9418e6572cb3244417a1e2ffe061b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4ba71576c5c5f905b4360997fa7dcc5f',
+  'native_key' => 'seosuite.meta.preview.length_desktop_description',
+  'object' => '{"key":"seosuite.meta.preview.length_desktop_description","value":"160","xtype":"textfield","namespace":"seosuite","area":"seosuite_tab_meta","editedon":null}',
+);

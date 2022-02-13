@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '566626717b25848504617492f0687bf6',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '34b2c3b77844480ecef9f63dcdf87c86',
+  'native_key' => 'seosuite.user_email',
+  'object' => '{"key":"seosuite.user_email","value":"","xtype":"textfield","namespace":"seosuite","area":"seosuite","editedon":null}',
+);

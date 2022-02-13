@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seosuite',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5e8b7e985215c4e8c35fade24fab4b66',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '7e7dca1c4c975148ac1df2bd0598bc8d',
+  'native_key' => 'seosuite.tab_social.og_types',
+  'object' => '{"key":"seosuite.tab_social.og_types","value":"website","xtype":"textfield","namespace":"seosuite","area":"seosuite_tab_social","editedon":null}',
+);

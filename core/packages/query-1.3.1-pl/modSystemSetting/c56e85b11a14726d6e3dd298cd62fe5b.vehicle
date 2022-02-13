@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'query',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '30a6a4a5d1688f80f9945a7cbf699d8d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c56e85b11a14726d6e3dd298cd62fe5b',
+  'native_key' => 'query.version',
+  'object' => '{"key":"query.version","value":"1.3.1","xtype":"textfield","namespace":"query","area":"query:default","editedon":null}',
+);
